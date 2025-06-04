@@ -24,25 +24,7 @@ Tech Stack
 
 Project Structure
 
-com.example.locationloginapp/
-│
-├── data/
-│ └── repository/
-│ └── SessionRepository.kt # Stores and tracks user login session
-│
-├── service/
-│ └── LocationService.kt # Tracks device location in background
-│
-├── ui/
-│ ├── view/
-│ │ ├── SplashActivity.kt # Initial screen for permission check
-│ │ ├── LoginActivity.kt # Login interface
-│ │ └── DashboardActivity.kt # Post-login activity
-│ └── viewmodel/
-│ └── LoginViewModel.kt # Manages login interaction
-│
-├── BaseActivity.kt # Base class for permission handling
-└── AndroidManifest.xml
+![image](https://github.com/user-attachments/assets/975ad518-f15b-4917-8b58-35d49049cddb)
 
 
 
