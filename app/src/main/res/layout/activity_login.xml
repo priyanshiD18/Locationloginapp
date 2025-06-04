@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bgggg">
+
+    <!-- Centered ImageView -->
+
+
+    <!-- Login Button below the Image -->
+
+    <ImageView
+        android:id="@+id/loginImage"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="78dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lbggg" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginImage"
+        android:layout_alignEnd="@+id/loginImage"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="-368dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="@android:color/transparent"
+        android:stateListAnimator="@null" />
+</RelativeLayout>
